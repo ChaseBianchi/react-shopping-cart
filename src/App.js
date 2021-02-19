@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
-
+import {CartContext,ProductContext} from './contexts'
 // Components
 import Navigation from './components/Navigation';
 import Products from './components/Products';
